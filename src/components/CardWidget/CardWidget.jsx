@@ -6,8 +6,8 @@ import './CardWidget.css'
 const CardWidget = () =>  {
   return (
     <>
-      <div class="carrito">
-        <a id="verCarrito" class="nav-link" href="https://www.mercadolibre.com.ar/" target='_blank'>
+      <div className="carrito">
+        <a id="verCarrito" className="nav-link d-flex" href="https://www.mercadolibre.com.ar/" target='_blank'>
           <ShoppingCartIcon />
           <p>10</p>
         </a>

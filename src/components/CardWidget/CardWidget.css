@@ -1,5 +1,9 @@
+p {
+    font-size: 0.75rem;
+    margin-top: 1.25rem;
+}
+
 .carrito {
-    display: flex;
     position: absolute;
     left: 90%;
     min-width: 9.375rem;

@@ -1,4 +1,6 @@
 import React from 'react'
+import CardWidget from '../CardWidget/CardWidget'
+import MenuIcon from '@mui/icons-material/Menu';
 import './NavBar.css'
 
 const NavBar = () => {
@@ -8,7 +10,7 @@ const NavBar = () => {
           <a class="navbar-brand" href="index.html">
             <img
               class="logo-coderhome"
-              src="./public/contao-logo.png"
+              src="/contao-logo.png"
               alt="logo_coderhome"
             />
           </a>
@@ -21,7 +23,7 @@ const NavBar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <i class="bi bi-list"></i>
+            <MenuIcon />
           </button>
           <div
             class="collapse navbar-collapse justify-content-center"
@@ -37,12 +39,10 @@ const NavBar = () => {
               <li class="nav-item">
                 <a class="nav-link" href="https://nvidia.com" target="_blank">Sponsors</a>
               </li>
+              <li>
+                <CardWidget/>
+              </li>
             </ul>
-            <div class="carrito">
-              <a id="verCarrito" class="nav-link" href="./pages/carrito.html">
-                <i class="bi bi-cart-dash-fill text-white icon-size"></i>
-              </a>
-            </div>
           </div>
         </div>
     </nav>

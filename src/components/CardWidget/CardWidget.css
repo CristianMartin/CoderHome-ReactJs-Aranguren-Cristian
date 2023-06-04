@@ -1,0 +1,25 @@
+.carrito {
+    display: flex;
+    position: absolute;
+    left: 90%;
+    min-width: 9.375rem;
+  }
+
+@media (max-width: 1500px) {
+    .carrito {
+        left: 85%;
+    }
+}
+
+@media (max-width: 990px) {
+    .carrito {
+        position: relative;
+        left: 0;
+        margin-top: 0.5rem;
+        margin-bottom: 0.625rem;
+    }
+    
+    .carrito img {
+        display: none;
+    }
+}

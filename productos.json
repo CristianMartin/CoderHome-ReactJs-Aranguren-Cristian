@@ -26,7 +26,7 @@
         "reviews": 12335,
         "descripcion": "Placa de Video ASUS",
         "imagenes": ["Placa-de-Video-ASUS-GeForce-RTX-3080-Ti-12GB-1.jpg", "Placa-de-Video-ASUS-GeForce-RTX-3080-Ti-12GB-2.jpg"],
-        "categoria": "Placa de video",
+        "categoria": "Placa-de-video",
         "cantidad": "1"
     },
     {
@@ -36,7 +36,7 @@
         "reviews": 8634,
         "descripcion": "Placa de Video Zotac",
         "imagenes": ["Placa-de-Video-Zotac-GeForce-RTX-3090-24GB-1.jpg", "Placa-de-Video-Zotac-GeForce-RTX-3090-24GB-2.jpg"],
-        "categoria": "Placa de video",
+        "categoria": "Placa-de-video",
         "cantidad": "1"
     },
     {
@@ -46,7 +46,7 @@
         "reviews": 6739,
         "descripcion": "Placa de Video XFX Radeon",
         "imagenes": ["Placa-de-Video-XFX-Radeon-RX-6800-XT-1.jpg", "Placa-de-Video-XFX-Radeon-RX-6800-XT-2.jpg"],
-        "categoria": "Placa de video",
+        "categoria": "Placa-de-video",
         "cantidad": "1"
     },
     {
@@ -76,7 +76,7 @@
         "reviews": 4323,
         "descripcion": "Linux S.O",
         "imagenes": ["Linux.jpg", "Linux.jpg"],
-        "categoria": "Sistema Operativo",
+        "categoria": "Sistema-Operativo",
         "cantidad": "1"
     },
     {
@@ -86,7 +86,7 @@
         "reviews": 13689,
         "descripcion": "Windows 10 pro",
         "imagenes": ["windows-10-pro.jpg", "windows-10-pro.jpg"],
-        "categoria": "Sistema Operativo",
+        "categoria": "Sistema-Operativo",
         "cantidad": "1"
     }
   ]

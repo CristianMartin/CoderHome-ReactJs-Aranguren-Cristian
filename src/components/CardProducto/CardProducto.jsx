@@ -16,14 +16,14 @@ const CardProducto = ({ producto }) => {
               <div className="carousel-item active">
                 <img
                   className="d-block w-100"
-                  src={`./src/assets/${producto.imagenes[0]}`}
+                  src={`../src/assets/${producto.imagenes[0]}`}
                   alt={`imagen - ${producto.nombre} - 1`}
                 />
               </div>
               <div className="carousel-item">
                 <img
                   className="d-block w-100"
-                  src={`./src/assets/${producto.imagenes[1]}`}
+                  src={`../src/assets/${producto.imagenes[1]}`}
                   alt={`imagen - ${producto.nombre} - 2`}
                 />
               </div>
@@ -60,7 +60,7 @@ const CardProducto = ({ producto }) => {
           <h6 className="font-weight-semibold mb-2">
             <Link
               className="text-link text-info mb-2"
-              to={`/product/${producto.id}`}
+              to={`/item/${producto.id}`}
             >
               {producto.nombre}
             </Link>

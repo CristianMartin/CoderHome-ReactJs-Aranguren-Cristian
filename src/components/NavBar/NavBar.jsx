@@ -37,9 +37,29 @@ const NavBar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/#bodyProductos">
+              <Link className="nav-link" to="/category/Todas">
                 Productos
-              </a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/category/Notebook">
+                Notebooks
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/category/Placa-de-video">
+                Placas de video
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/category/Procesador">
+                Procesadores
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/category/Sistema-Operativo">
+                Sistemas operativos
+              </Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/#sponsors">

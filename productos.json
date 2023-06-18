@@ -5,7 +5,7 @@
         "precio": 714300,
         "reviews": 11234,
         "descripcion": "Notebook Gamer Gigabyte",
-        "imagenes": ["./src/assets/Notebook-gamer-gigabyte-Aero15-1.jpg", "./src/assets/Notebook-gamer-gigabyte-Aero15-2.jpg"],
+        "imagenes": ["Notebook-gamer-gigabyte-Aero15-1.jpg", "Notebook-gamer-gigabyte-Aero15-2.jpg"],
         "categoria": "Notebook",
         "cantidad": "1"
     },
@@ -15,7 +15,7 @@
         "precio": 450990,
         "reviews": 10433,
         "descripcion": "Notebook Gamer Asus TUF",
-        "imagenes": ["./src/assets/Notebook-Gamer-Asus-TUF-FX516-1.jpg", "./src/assets/Notebook-Gamer-Asus-TUF-FX516-2.jpg"],
+        "imagenes": ["Notebook-Gamer-Asus-TUF-FX516-1.jpg", "Notebook-Gamer-Asus-TUF-FX516-2.jpg"],
         "categoria": "Notebook",
         "cantidad": "1"
     },
@@ -25,7 +25,7 @@
         "precio": 370440,
         "reviews": 12335,
         "descripcion": "Placa de Video ASUS",
-        "imagenes": ["./src/assets/Placa-de-Video-ASUS-GeForce-RTX-3080-Ti-12GB-1.jpg", "./src/assets/Placa-de-Video-ASUS-GeForce-RTX-3080-Ti-12GB-2.jpg"],
+        "imagenes": ["Placa-de-Video-ASUS-GeForce-RTX-3080-Ti-12GB-1.jpg", "Placa-de-Video-ASUS-GeForce-RTX-3080-Ti-12GB-2.jpg"],
         "categoria": "Placa de video",
         "cantidad": "1"
     },
@@ -35,7 +35,7 @@
         "precio": 403150,
         "reviews": 8634,
         "descripcion": "Placa de Video Zotac",
-        "imagenes": ["./src/assets/Placa-de-Video-Zotac-GeForce-RTX-3090-24GB-1.jpg", "./src/assets/Placa-de-Video-Zotac-GeForce-RTX-3090-24GB-2.jpg"],
+        "imagenes": ["Placa-de-Video-Zotac-GeForce-RTX-3090-24GB-1.jpg", "Placa-de-Video-Zotac-GeForce-RTX-3090-24GB-2.jpg"],
         "categoria": "Placa de video",
         "cantidad": "1"
     },
@@ -45,7 +45,7 @@
         "precio": 274000,
         "reviews": 6739,
         "descripcion": "Placa de Video XFX Radeon",
-        "imagenes": ["./src/assets/Placa-de-Video-XFX-Radeon-RX-6800-XT-1.jpg", "./src/assets/Placa-de-Video-XFX-Radeon-RX-6800-XT-2.jpg"],
+        "imagenes": ["Placa-de-Video-XFX-Radeon-RX-6800-XT-1.jpg", "Placa-de-Video-XFX-Radeon-RX-6800-XT-2.jpg"],
         "categoria": "Placa de video",
         "cantidad": "1"
     },
@@ -55,7 +55,7 @@
         "precio": 141100,
         "reviews": 6564,
         "descripcion": "Procesador Intel Core i7",
-        "imagenes": ["./src/assets/Procesador-Intel-Core-i7-12700-1.jpg", "./src/assets/Procesador-Intel-Core-i7-12700-2.jpg"],
+        "imagenes": ["Procesador-Intel-Core-i7-12700-1.jpg", "Procesador-Intel-Core-i7-12700-2.jpg"],
         "categoria": "Procesador",
         "cantidad": "1"
     },
@@ -65,7 +65,7 @@
         "precio": 211000,
         "reviews": 4567,
         "descripcion": "Procesador AMD Ryzen 9",
-        "imagenes": ["./src/assets/Procesador-AMD-Ryzen-9-7900X-1.jpg", "./src/assets/Procesador-AMD-Ryzen-9-7900X-2.jpg"],
+        "imagenes": ["Procesador-AMD-Ryzen-9-7900X-1.jpg", "Procesador-AMD-Ryzen-9-7900X-2.jpg"],
         "categoria": "Procesador",
         "cantidad": "1"
     },
@@ -75,7 +75,7 @@
         "precio": 8000,
         "reviews": 4323,
         "descripcion": "Linux S.O",
-        "imagenes": ["./src/assets/Linux.jpg", "./src/assets/Linux.jpg"],
+        "imagenes": ["Linux.jpg", "Linux.jpg"],
         "categoria": "Sistema Operativo",
         "cantidad": "1"
     },
@@ -85,7 +85,7 @@
         "precio": 12400,
         "reviews": 13689,
         "descripcion": "Windows 10 pro",
-        "imagenes": ["./src/assets/windows-10-pro.jpg", "./src/assets/windows-10-pro.jpg"],
+        "imagenes": ["windows-10-pro.jpg", "windows-10-pro.jpg"],
         "categoria": "Sistema Operativo",
         "cantidad": "1"
     }

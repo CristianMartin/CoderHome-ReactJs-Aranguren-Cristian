@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
@@ -54,9 +55,9 @@ const Footer = () => {
       </div>
       <div className="text-center p-3 bg-black bg-gradient">
         © 2020 Copyright:
-        <a className="text-white" href="./index.html" target="_blank">
+        <Link className="text-white" to="/">
           CoderHome.com
-        </a>
+        </Link>
       </div>
     </footer>
   );

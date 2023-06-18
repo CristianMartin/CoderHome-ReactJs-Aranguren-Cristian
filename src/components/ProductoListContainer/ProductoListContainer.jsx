@@ -3,13 +3,13 @@ import "./ProductoListContainer.css";
 import CardProducto from "../CardProducto/CardProducto";
 
 const ProductoListContainer = () => {
-  const [productos, setItems] = useState([]);
+  const [productos, setProductos] = useState([]);
 
   useEffect(() => {
     fetch(`${import.meta.env.VITE_BASE_URL}`)
       .then((response) => response.json())
       .then((productos) => {
-        setItems(productos);
+        setProductos(productos);
       });
   }, []);
 

@@ -1,0 +1,9 @@
+.card-body .btn {
+    background-image: var(--background-color_boton);
+}
+
+.card-body .btn:hover {
+    background-image: inherit;
+    color: var(--text-color-hover);
+    background-color: var(--text-color-hover);
+}

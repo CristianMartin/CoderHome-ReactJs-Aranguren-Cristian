@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./CardProducto.css";
 
 const CardProducto = ({ producto }) => {
@@ -15,14 +16,14 @@ const CardProducto = ({ producto }) => {
               <div className="carousel-item active">
                 <img
                   className="d-block w-100"
-                  src={producto.imagenes[0]}
+                  src={`./src/assets/${producto.imagenes[0]}`}
                   alt={`imagen - ${producto.nombre} - 1`}
                 />
               </div>
               <div className="carousel-item">
                 <img
                   className="d-block w-100"
-                  src={producto.imagenes[1]}
+                  src={`./src/assets/${producto.imagenes[1]}`}
                   alt={`imagen - ${producto.nombre} - 2`}
                 />
               </div>
@@ -57,12 +58,15 @@ const CardProducto = ({ producto }) => {
       <div className="card-body bg-light text-center">
         <div className="mb-2">
           <h6 className="font-weight-semibold mb-2">
-            <a href="./pages/hoja-producto.html" className="text-info mb-2">
+            <Link
+              className="text-link text-info mb-2"
+              to={`/product/${producto.id}`}
+            >
               {producto.nombre}
-            </a>
+            </Link>
           </h6>
         </div>
-        <h3 className="mb-0 font-weight-semibold">{producto.precio}</h3>
+        <h3 className="mb-0 font-weight-semibold">{`$${producto.precio}`}</h3>
         <div className="text-muted mb-3">{producto.reviews} reviews</div>
         <div
           id={`botonera-producto-${producto.id}`}

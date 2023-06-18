@@ -1,5 +1,5 @@
 import React from 'react'
-import CardWidget from '../CardWidget/CardWidget'
+import CartWidget from '../CartWidget/CartWidget'
 import MenuIcon from '@mui/icons-material/Menu';
 import './NavBar.css'
 
@@ -40,7 +40,7 @@ const NavBar = () => {
                 <a className="nav-link" href="https://nvidia.com" target="_blank">Sponsors</a>
               </li>
               <li>
-                <CardWidget/>
+                <CartWidget/>
               </li>
             </ul>
           </div>

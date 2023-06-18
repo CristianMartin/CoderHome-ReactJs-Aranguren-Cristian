@@ -1,0 +1,7 @@
+footer {
+	background-image: var(--background-color_footer);
+	box-shadow: 0.125rem 0.07rem 0.313rem #000;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}

@@ -1,9 +1,9 @@
 import React from 'react'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import './CardWidget.css'
+import './CartWidget.css'
 
 
-const CardWidget = () =>  {
+const CartWidget = () =>  {
   return (
     <>
       <div className="carrito">
@@ -16,4 +16,4 @@ const CardWidget = () =>  {
   )
 }
 
-export default CardWidget
+export default CartWidget

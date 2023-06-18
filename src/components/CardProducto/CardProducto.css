@@ -1,0 +1,7 @@
+.card-size {
+    width: 18rem;
+}
+
+.card-img-actions span {
+    filter: invert(50%);
+}

@@ -1,0 +1,6 @@
+.marca-img {
+	width: 22%;
+	aspect-ratio: 3/2;
+	object-fit: contain;
+	mix-blend-mode: color-burn;
+}

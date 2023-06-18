@@ -1,0 +1,42 @@
+@import "https://fonts.googleapis.com/css2?family=Oswald&family=Sono&display=swap";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--font-family_title: 'Oswald', sans-serif;
+	--font-family_text: 'Sono', sans-serif;
+	--text-color: white;
+	--text-color-hover: #f47c00;
+	--background-color_body: rgb(207, 209, 221);
+	--background-color_navbar: linear-gradient(to bottom, #004C98, #021E3A);
+	--background-color_boton: linear-gradient(to bottom, #004C98, #021E3A);
+	--background-color_footer: linear-gradient(to bottom, #004C98, #021E3A);
+	--border-color: #040500;
+}
+
+body {
+	background-color: var(--background-color_body);
+	position: relative;
+	padding-bottom: 10rem;
+	min-height: 100vh;
+}
+
+h1 {
+	text-align: center;
+	color: var(--text-color);
+	font-family: var(--font-family_title);
+}
+
+h2 {
+	color: var(--text-color);
+	margin-bottom: 1rem;
+	font-family: var(--font-family_title);
+}
+
+p {
+	font-family: var(--font-family_text);
+}
